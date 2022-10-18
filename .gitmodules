@@ -1,0 +1,9 @@
+[submodule "architalks/themes/themes/hugo-theme-cleanwhite"]
+	path = architalks/themes/themes/hugo-theme-cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+[submodule "architalks/themes/PaperMod"]
+	path = architalks/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "architalks/themes/mediumish"]
+	path = architalks/themes/mediumish
+	url = https://github.com/lgaida/mediumish-gohugo-theme

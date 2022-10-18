@@ -1,0 +1,11 @@
+baseURL = 'https://architalks.github.io/'
+languageCode = 'ru-Ru'
+title = 'Заметки об архитектуре'
+copyright = "Артем Брайко"
+theme = "PaperMod"
+
+[params.index]
+#alertbar = false
+
+[params.social]
+#github = "abrayko"

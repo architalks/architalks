@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dependency on Заметки об архитектуре</title>
+    <link>https://architalks.github.io/tags/dependency/</link>
+    <description>Recent content in dependency on Заметки об архитектуре</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-Ru</language>
+    <copyright>Артем Брайко</copyright>
+    <lastBuildDate>Tue, 11 Oct 2022 13:39:45 +0300</lastBuildDate><atom:link href="https://architalks.github.io/tags/dependency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Зависимости, интерфейсы и поток управления</title>
+      <link>https://architalks.github.io/posts/cleanarch-dependency/</link>
+      <pubDate>Tue, 11 Oct 2022 13:39:45 +0300</pubDate>
+      
+      <guid>https://architalks.github.io/posts/cleanarch-dependency/</guid>
+      <description>Принцип зависимости Основной принцип чистой архитектуры - верхний уровень не зависит от нижнего. Нижний зависит от верхнего. Этот принцип должен буквально отражаться в коде: в пакетах нижнего уровня должен быть import пакетов верхнего уровня, но не наоборот.
+Вспомним, что верхним называется уровень бизнес логики, а все взаимодействие с внешним миром - нижним.
+На картинке, сверху отображены пакеты верхнего уровня с бизнес-логикой: Domain, включающий Entity и UseCase. Прием запроса по http и сохранение/получение в/из БД - это нижний уровень.</description>
+    </item>
+    
+  </channel>
+</rss>
